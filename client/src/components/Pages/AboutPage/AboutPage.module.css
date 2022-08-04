@@ -1,0 +1,36 @@
+
+
+.Page {
+    background-color: black;
+    color: #d00000;
+    font-size: var(--main-font-size-bigA);
+    margin: 4%;
+    padding: 5%;
+    border-radius: 30px;
+}
+
+.PageM {
+    background-color: black;
+    color: #d00000;
+    font-size: 40px;
+    padding: 5%;
+    height: 100%;
+}
+
+.item1 {
+    background-color: #282c34;
+    padding: 3%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.item2 {
+    background-color: #282c34;
+    padding: 3%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.email {
+    color: white;
+}

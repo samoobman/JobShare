@@ -1,0 +1,49 @@
+.Menu {
+    margin: 0;
+    padding-left: 0;
+    background: #d00000;
+    border: 2px solid black;
+    display: table;
+}
+
+.Menu:first-child {
+    border-top: 4px solid black;
+}
+
+.menuButton {
+    border-bottom: 4px solid black;
+    padding: 10px 20px;
+    font-size: x-large;
+    width: 300px;
+}
+
+.menuButtonM {
+    display: table-cell;
+    border-bottom: 4px solid black;
+    padding: 10px 20px;
+    font-size: 40px;
+    width: 550px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.linkStyle {
+    text-decoration: none;
+    display: table-row;
+    color: white;
+}
+
+.linkStyle:visited {
+    color: white;
+}
+
+.linkStyle:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
+@media (max-width: 700px) {
+    .regLinkMenu {
+        display: none;
+    }
+}

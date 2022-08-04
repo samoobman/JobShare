@@ -1,0 +1,84 @@
+.RightItem {
+    padding: 4%;
+    margin: 5px 5px 5px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: auto;
+    font-size: var(--main-font-size-bigB);
+    opacity: 1;
+    overflow: auto;
+    display: flow;
+    width: 100%;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.RightItem:hover {
+    border: 1px solid white;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+}
+
+.imgProf {
+    width: 30px;
+    height: 30px;
+    margin-left: 2px;
+}
+
+.titleB .imgProf {
+    filter: invert();
+}
+
+.rows {
+    padding: 10px;
+
+}
+
+.head {
+    color: grey;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px
+}
+
+.head:hover {
+    background-color: #282c34;
+    color: white;
+}
+
+.head .img {
+    filter: invert();
+}
+
+.title {
+    color: black;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.titleB {
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.titleB .img {
+    filter: invert();
+}
+
+

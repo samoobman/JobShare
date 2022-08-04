@@ -1,0 +1,47 @@
+.MyButton {
+    display: inline-block;
+    padding: 5px 18px;
+    font-size: var(--main-font-size-bigB);
+    background: black;
+    color: red;
+    transition: all 1s;
+    width: auto;
+    height: var(--main-button-size);
+    border-radius: 10px;
+    margin: var( --main-headermargin-size);
+    border: 3px solid #282c34;
+}
+
+.MyButtonM {
+    display: inline-block;
+    padding: 5px 18px;
+    font-size: var(--main-headermargin-sizeM);
+    background: black;
+    color: red;
+    transition: all 1s;
+    width: auto;
+    height: var(--main-titlelink-size2M);
+    border-radius: 10px;
+    margin: var( --main-headermargin-size);
+    border: 3px solid #282c34;
+}
+
+.MyButton:hover {
+    background: white;
+    transition: all 1s;
+    color: black;
+    border: 3px solid black;
+}
+
+.MyButtonM:hover {
+    background: white;
+    transition: all 1s;
+    color: black;
+    border: 3px solid black;
+}
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+.ContentWrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+@media (max-width: 1150px) {
+    .ContentWrapper {
+        grid-template-columns: 100%;
+        justify-content: center;
+
+    }
+}

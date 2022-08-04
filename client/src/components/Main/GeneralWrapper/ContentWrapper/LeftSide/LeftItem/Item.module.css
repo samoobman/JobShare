@@ -1,0 +1,105 @@
+.LeftItem {
+    background: grey;
+    padding: 5px;
+    color: black;
+    font-size: var(--main-font-size-bigA);
+    margin: 5px 0 5px 5px;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.LeftItem:hover {
+    border: 1px solid white;
+}
+
+.name {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.name:hover {
+    background-color: #282c34;
+}
+
+
+.date {
+    padding-left: 5%;
+    font-size: var(--main-font-size-bigB);
+}
+
+.salary {
+    text-align: right;
+    font-size: var(--main-font-size-bigB);
+}
+
+.employer {
+    color: black;
+    padding-left: 5%;
+}
+
+.snippet {
+    font-size: var(--main-font-size-bigB);
+    padding: 5px;
+}
+
+.city {
+    padding-left: 5%;
+    color: #282c34;
+}
+
+.line {
+    border: none;
+    background-color: black;
+    height: 2px;
+}
+
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 1450px) {
+    .salary {
+        font-size: var(--main-font-size-mediumB);
+
+    }
+    .snippet {
+        font-size: var(--main-font-size-mediumB);
+
+    }
+    .date {
+        font-size: var(--main-font-size-mediumB);
+
+    }
+    .LeftItem {
+        font-size: var(--main-font-size-mediumA);
+
+    }
+}
+
+@media (max-width: 700px) {
+    .salary {
+        font-size: var(--main-font-size-mediumB2);
+
+    }
+    .snippet {
+        font-size: var(--main-font-size-mediumB2);
+
+    }
+    .date {
+        font-size: var(--main-font-size-mediumB2);
+
+    }
+    .LeftItem {
+        font-size: var(--main-font-size-mediumA2);
+
+    }
+}
+

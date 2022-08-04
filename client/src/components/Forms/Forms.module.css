@@ -1,0 +1,32 @@
+.MyForm {
+    border-radius: 20px;
+    padding: 5%;
+    background: #282c34;
+    justify-content: center;
+    display: inline-block;
+    flex-direction: column;
+    max-width: 50em;
+}
+
+.inputWrapper :last-child {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.inputWrapper :first-child {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.inputWrapper {
+    border: 2px solid #d00000;
+    border-radius: 10px;
+}
+
+.t {
+    font-size: x-large;
+    color: white;
+}
+
+
+

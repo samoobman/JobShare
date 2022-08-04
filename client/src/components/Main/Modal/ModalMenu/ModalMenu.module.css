@@ -1,0 +1,22 @@
+.ModalMenu {
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    top: auto;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s;
+    overflow: hidden;
+}
+
+.ModalMenu.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+

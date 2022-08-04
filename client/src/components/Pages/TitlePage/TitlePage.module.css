@@ -1,0 +1,17 @@
+.titleText {
+     font-size: x-large;
+    color: darkgray;
+    background-color: black;
+    padding: 1em;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.titleTextM {
+    font-size: xx-large;
+    color: darkgray;
+    background-color: black;
+    padding: 1em;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

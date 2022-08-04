@@ -1,0 +1,52 @@
+.Page {
+    justify-content: center;
+    padding: 5px;
+}
+
+.titleName {
+    font-size: 40px;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+.head {
+    background-color: black;
+    color: #d00000;
+    justify-content: center;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.exitButton {
+    float: right;
+    margin: 0 15px;
+}
+
+.row {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: auto;
+    font-size: x-large;
+    opacity: 1;
+    overflow: auto;
+    display: flow;
+    width: 100%;
+}
+
+.nanRes {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: black;
+    color: #d00000;
+    font-size: xx-large;
+    padding: 10px;
+    text-align: center;
+}

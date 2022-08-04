@@ -1,0 +1,13 @@
+.GeneralWrapper {
+    position: static;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+@media (max-width: 700px) {
+    .GeneralSec {
+        max-width: 100vw;
+    }
+}
+

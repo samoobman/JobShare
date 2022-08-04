@@ -1,0 +1,9 @@
+.empty {
+    margin: 30px;
+    padding: 40px;
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    color: #d00000;
+    border-radius: 10px;
+}

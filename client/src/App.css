@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: 'Mariupol';
+    src: url(./fonts/Mariupol.ttf);
+}
+
+:root {
+    box-sizing: border-box;
+    background: black;
+    --main-font-size-bigA: 22px;
+    --main-font-size-bigB: 20px;
+    --main-font-size-bigC: 18px;
+    --main-font-size-mediumA: 17px;
+    --main-font-size-mediumB: 15px;
+    --main-font-size-mediumC: 13px;
+    --main-header-size: 80px;
+    --main-header-sizeM: 120px;
+    --main-titlelink-size: 13px;
+    --main-button-size: 40px;
+    --main-button-sizeM: 60px;
+    --main-headermargin-size: 20px;
+    --main-headermargin-sizeM: 30px;
+    --main-font-size-bigA2: 32px;
+    --main-font-size-bigB2: 30px;
+    --main-font-size-bigC2: 28px;
+    --main-font-size-mediumA2: 27px;
+    --main-font-size-mediumB2: 25px;
+    --main-font-size-mediumC2: 23px;
+    --main-header-size2: 100px;
+    --main-titlelink-size2: 25px;
+    --main-titlelink-size2M: 60px;
+    --main-button-size2: 50px;
+    --main-headermargin-size2: 25px;
+}
+
+
+
+.App {
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Mariupol', serif;
+
+}
+
+.disScroll {
+    overflow-y: hidden;
+}
+
+
+
+

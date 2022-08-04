@@ -1,0 +1,13 @@
+.RightSide {
+    background: #282c34;
+    border-left: rgba(0, 0, 0, 0.2) solid 5px;
+}
+
+.Header {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: black 10px;
+    font-size: larger;
+}
+

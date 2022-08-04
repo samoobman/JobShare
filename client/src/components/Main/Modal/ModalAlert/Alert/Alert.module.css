@@ -1,0 +1,53 @@
+.Alert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 17vw;
+    height: auto;
+    float: right;
+    margin-left: 93vw;
+    margin-right: 4vw;
+    margin-top: 10vh;
+    animation: fadein 0.5s;
+    font-size: x-large;
+    pointer-events: all;
+    opacity: 1;
+    background-color: yellow;
+    color: black;
+    border: 5px solid #d00000;
+    padding: 20px;
+}
+
+@keyframes fadein {
+    from {margin-top: 0; opacity: 0;}
+    to {margin-top: 10vh; opacity: 1;}
+}
+
+@media (max-width: 1100px) {
+    .Alert {
+        width: 20%;
+        height: auto;
+        padding: 20px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 800px) {
+    .Alert {
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        font-size: large;
+    }
+}
+
+@media (max-width: 500px) {
+    .Alert {
+        width: 50%;
+        height: auto;
+        padding: 20px;
+        font-size: large;
+    }
+}
+

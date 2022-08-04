@@ -1,0 +1,145 @@
+.LeftSide {
+    background: #282c34;
+    color: white;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-right: rgba(0, 0, 0, 0.2) solid 5px;
+}
+
+.Header {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border: black 10px;
+    font-size: larger;
+}
+
+.cityContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cityIn {
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    border: black solid 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #282c34;
+    color: gray;
+    padding-left: 10px;
+}
+
+.cityInM {
+    width: 100%;
+    height: var(--main-titlelink-size2M);
+    font-size: xx-large;
+    border: black solid 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #282c34;
+    color: gray;
+    padding-left: 10px;
+}
+
+.cityIn:focus {
+    outline: none;
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+
+.cityInM:focus {
+    outline: none;
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+
+.cityIn::-webkit-input-placeholder {color: white}
+.cityIn::-moz-placeholder          {color: white}
+.cityIn:-moz-placeholder           {color: white}
+.cityIn:-ms-input-placeholder      {color: white}
+
+.cityInM::-webkit-input-placeholder {color: white}
+.cityInM::-moz-placeholder          {color: white}
+.cityInM:-moz-placeholder           {color: white}
+.cityInM:-ms-input-placeholder      {color: white}
+
+input:focus::-webkit-input-placeholder {color: gray}
+input:focus::-moz-placeholder          {color: gray}
+input:focus:-moz-placeholder           {color: gray}
+input:focus:-ms-input-placeholder      {color: gray}
+
+.btnSearch {
+    height: 40px;
+    background-color: gray;
+    border-top: black solid 3px;
+    border-right: black solid 3px;
+    border-bottom: black solid 3px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btnSearchM {
+    height: var(--main-titlelink-size2M);
+    background-color: gray;
+    border-top: black solid 3px;
+    border-right: black solid 3px;
+    border-bottom: black solid 3px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.btnSearchM:hover {
+    background-color: darkgray;
+}
+
+.btnSearch:hover {
+    background-color: darkgray;
+}
+
+
+.containerImg {
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.containerImg:hover {
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.containerImg .img{
+    filter: invert();
+}
+
+.containerImg:hover .img{
+    filter: none;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.warning {
+    font-size: large;
+    color: white;
+    padding-left: 20px;
+    margin-top: 30%;
+}
+
