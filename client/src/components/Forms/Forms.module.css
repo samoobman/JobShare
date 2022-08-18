@@ -16,6 +16,7 @@
 .inputWrapper :first-child {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding-top: 25px;
 }
 
 .inputWrapper {
